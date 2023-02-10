@@ -2,13 +2,16 @@
 
 **1.** What is the difference between `asynchronous` code and `synchronous` code?
 <!-- enter you answer in the space below -->
-```
+```async code runs after it gets a promise.
+synchronous code runs as javascript is programed to read javascript.
 
 ```
 **2.** What is an event listener?
 <!-- enter you answer in the space below -->
 ```
-
+an event listener does what it says. it listens to an event.
+heres an example. lets say in our appstate we say object = []
+everytime we pass through an object through object the event listener will ping. when the event listener pings it will then run the function that is supplied after the comma. the comma is past the thing its listening too.
 ```
 **3.** What does the `O` represent in the `SOLID` principles?
 <!-- enter you answer in the space below -->

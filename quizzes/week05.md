@@ -27,7 +27,8 @@ post, put
 **5.** In a/an _______ coding model, when you call a function, it returns only when the action has finished and stops your program for the time the action takes. Likewise in a/an _______ coding model, multiple things are allowed to happen at one time. When you perform an action, your program continues to run.  Fill in the blanks.
 <!-- enter you answer in the space below -->
 ```
-
+async
+synchronus 
 ```
 
 **6.** Fill in the missing piece of this snippet of code.
@@ -37,7 +38,8 @@ let Schema = ________.Schema;
 ```
 <!-- enter you answer in the space below -->
 ```
-
+import mongoose from mongoose
+let schema = mongoose.schema
 ```
 **7.** What is middleware?
 <!-- enter you answer in the space below -->
@@ -48,10 +50,15 @@ its the software that talks between the server, and database
 <!-- enter you answer in the space below -->
 ```
 
+
+
+ci cd
 ```
 **9.** 
 Demonstrate the pattern that is used to include a request query with the client's `HTTP` request providing the property `tag` and the value `winter`.
 <!-- enter you answer in the space below -->
 ```
+
+http:baseurl/?tag=winter
 
 ```
